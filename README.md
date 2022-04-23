@@ -1,27 +1,12 @@
 # Travelo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.14.
+I turned some free XD file I had found on internet into a raw travel agency website using only HTML/SCSS.
 
-## Development server
+Link to the website's XD design: https://www.xdguru.com/new-xd-travel-website-template/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Travelo1](https://user-images.githubusercontent.com/90184335/164913923-45209713-fe59-44a7-bffd-69bec950e74b.png)
+![Travelo2](https://user-images.githubusercontent.com/90184335/164913987-63c78731-3f55-441b-9395-9975eb4ff9eb.png)
+![Travelo3](https://user-images.githubusercontent.com/90184335/164913989-61140f6d-54b3-4681-b331-ef505a725385.png)
+![Travelo4](https://user-images.githubusercontent.com/90184335/164913992-e44ef730-9c52-417f-9beb-c3022e5d30d3.png)
+![Travelo5](https://user-images.githubusercontent.com/90184335/164913995-3f957399-f78d-45a2-9244-3dd5c2754a8f.png)
+![Travelo6](https://user-images.githubusercontent.com/90184335/164913998-fa5780ca-da50-4733-bc63-e3f3c0b86dd4.png)
