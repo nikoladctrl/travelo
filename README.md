@@ -10,3 +10,6 @@ Link to the website's XD design: https://www.xdguru.com/new-xd-travel-website-te
 ![Travelo4](https://user-images.githubusercontent.com/90184335/164913992-e44ef730-9c52-417f-9beb-c3022e5d30d3.png)
 ![Travelo5](https://user-images.githubusercontent.com/90184335/164913995-3f957399-f78d-45a2-9244-3dd5c2754a8f.png)
 ![Travelo6](https://user-images.githubusercontent.com/90184335/164913998-fa5780ca-da50-4733-bc63-e3f3c0b86dd4.png)
+
+
+Next step is to make it fully responsive.
