@@ -1,0 +1,22 @@
+<div class="header-container">
+    <div class="logo-holder">
+        <span>
+            <img src="../../../assets/icons/globe.svg" alt="Logo">
+        </span>
+        <span class="name">
+            Travelo
+        </span>
+    </div>
+    
+    <div class="menu-bar hide-mobile">
+        <ul>
+            <li *ngFor="let link of links">
+                <a routerLink="link">{{ link }}</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="hide-mobile">
+        <button class="btn btn-primary">Connect</button>
+    </div>
+</div>

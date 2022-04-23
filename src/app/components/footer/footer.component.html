@@ -1,0 +1,17 @@
+<div class="footer-holder">
+    <span>
+        Copyright 2020 Travelo. All rights reserved.
+    </span>
+    <span>
+        <ul>
+            <li *ngFor="let link of links">{{ link }}</li>
+        </ul>
+    </span>
+    <span class="third">
+        <ul class="media-links">
+            <li *ngFor="let media of medias">
+                <app-icon [icon]="media"></app-icon>
+            </li>
+        </ul>
+    </span>
+</div>

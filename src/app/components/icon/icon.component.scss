@@ -1,0 +1,51 @@
+.background-blue {
+    background-color: #F0F4FC;
+    width: 72px;
+    height: 72px;
+    border-radius: 5px;
+    position: relative;
+
+    .price, .safe, .payment, .near {
+        background-size: cover;
+    } 
+
+    .price {
+        background-image: url('../../../assets/icons/price.svg');
+        
+    }
+    
+    .safe {
+        background-image: url('../../../assets/icons/safe.svg');
+    }
+
+    .payment {
+        background-image: url('../../../assets/icons/payment.svg');
+    }
+    
+    .near {
+        background-image: url('../../../assets/icons/near.svg');
+    }
+}
+
+.background-green {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1C4961;
+}
+
+.background-black {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+svg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

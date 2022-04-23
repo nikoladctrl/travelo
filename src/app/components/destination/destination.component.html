@@ -1,0 +1,21 @@
+<ng-container *ngIf="destination">
+    <div class="dest-holder">
+        <img [src]="'../../../assets/images/' + destination.name + '.jpg'" alt="">
+        <h4>{{ destination.name }}</h4>
+        <p>{{ destination.description | shrink }}</p>
+        <div class="first">
+            <span class="options">
+                <ul>
+                    <li *ngFor="let opt of options">
+                        <app-icon [icon]="opt"></app-icon>
+                    </li>
+                </ul>
+            </span>
+            <span class="price">₹ {{ destination.price }}</span>
+        </div>
+        <div class="second">
+            <span>{{ destination.distance }} Kms</span>
+            <span>{{ destination.duration }}</span>
+        </div>
+    </div>
+</ng-container>

@@ -1,0 +1,46 @@
+:host {
+    flex: 1;
+}
+
+.dest-holder {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 200px;
+
+    img {
+        width: 500px;
+        height: 400px;
+    }
+
+    h4 {
+        font-size: 38px;
+        font-weight: 500;
+        padding-left: 10px;
+    }
+
+    p {
+        margin-bottom: 15px;
+        font-size: 26px;
+        padding: 10px;
+    }
+    .first, .second {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .first ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+    .first {
+        display: flex;
+        .price {
+            font-size: 31px;
+            font-weight: 500;
+        }
+    }
+}

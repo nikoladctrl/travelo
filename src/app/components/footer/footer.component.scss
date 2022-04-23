@@ -1,0 +1,39 @@
+.footer-holder {
+    padding: 0 40px;
+    height: 175px;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E1E8F8;
+    border-radius: 15px;
+
+    span {
+        flex-basis: 0;
+        flex-grow: 1;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+    
+            li {
+                font-size: 18px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+    .third ul {
+        justify-content: end;
+
+        li {
+            margin-right: 5px;
+        }
+    }
+}

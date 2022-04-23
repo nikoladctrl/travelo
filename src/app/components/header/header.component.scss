@@ -1,0 +1,76 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    div:not(:nth-child(2)) {
+        width: 100px;
+    }
+
+    div:nth-child(2) {
+        width: 40%;
+    }
+
+    .logo-holder {
+        display: flex;
+        justify-content: space-between;
+
+        .name {
+            color: blue;
+            font-weight: 500;
+        }
+    }
+
+    .menu-bar {
+        flex-shrink: 1;
+        width: 100%;
+        ul {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+    
+            li {
+                justify-content: space-around;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+    
+                &:hover {
+                    cursor: pointer;
+                    // font-weight: 500;
+                }
+    
+                &:active {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    button {
+        height: 35px;
+        width: 104px;
+        border-radius: 24px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hide-mobile {
+        display: none;
+    }
+}
